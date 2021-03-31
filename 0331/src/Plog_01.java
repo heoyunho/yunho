@@ -1,10 +1,12 @@
 import java.util.Scanner;
+
 public class Plog_01 {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
-		System.out.println("수학,과학,영어 순으로 3개의 점수 입력:");
 		Grade me = new Grade();
+		
+		System.out.println("수학,과학,영어 순으로 3개의 점수 입력:");
 		me.math = scan.nextInt();
 		me.science = scan.nextInt();
 		me.english = scan.nextInt();
@@ -12,7 +14,9 @@ public class Plog_01 {
 		
 		
 	}
-	class Grade{
+	
+
+}class Grade{
 		
 		int math;
 		int science;
@@ -24,5 +28,3 @@ public class Plog_01 {
 			
 		}
 	}
-
-}
